@@ -1,7 +1,7 @@
 #! /bin/bash
 # Instaluje potřební balíky do domovské složky soubor makelatex
 
-sudo apt-get install pandoc texlive-xetex texlive-lang-czechslovak texlive-latex-base texlive-bibtex-extra open-jdk-7-jre
+sudo apt-get install pandoc texlive-xetex texlive-lang-czechslovak texlive-latex-base texlive-bibtex-extra openjdk-7-jre
 
 SOURCE="${BASH_SOURCE[0]}"
 while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink
